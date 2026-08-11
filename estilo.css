@@ -1,292 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Projetos | Acadêmico</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Minha Página com Estilo GitHub</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f6f8fa;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border: 1px solid #e1e4e8;
+      border-radius: 6px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-
-    <header>
-        <div class="logo">Meu Portfólio</div>
-        <nav>
-            <ul>
-                <li><a href="#robotica">Robótica</a></li>
-                <li><a href="#fisica">Física</a></li>
-                <li><a href="#tecnociencia">Tecnociência</a></li>
-                <li><a href="#natureza-da-luz">Natureza da Luz</a></li>
-                <li><a href="#fisica-visao">Física da Visão</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h1>Projetos & Trabalhos Acadêmicos</h1>
-        <p>Acompanhe minhas criações, experimentos e registros práticos nas disciplinas STEM.</p>
-    </section>
-
-    <section id="robotica" class="container">
-        <h2 class="titulo-secao">🤖 Robótica</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>Robô Seguidor de Linha</h3>
-                <p>Construção de um protótipo utilizando Arduino e sensores infravermelhos para navegação autônoma.</p>
-                <span class="tag">Arduino</span>
-                <span class="tag">C++</span>
-            </article>
-
-            <article class="card">
-                <h3>Braço Mecânico Automatizado</h3>
-                <p>Projeto de controle de servo-motores para movimentação de objetos via joystick.</p>
-                <span class="tag">Servos</span>
-                <span class="tag">Mecânica</span>
-            </article>
-        </div>
-    </section>
-
-    <section id="fisica" class="container">
-        <h2 class="titulo-secao">⚡ Física</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>Experimento de Lançamento Oblíquo</h3>
-                <p>Análise da trajetória de projéteis e comparação com equações do movimento uniformemente variado.</p>
-                <span class="tag">Cinemática</span>
-                <span class="tag">Análise de Dados</span>
-            </article>
-
-            <article class="card">
-                <h3>Gerador de Van de Graaff Caseiro</h3>
-                <p>Estudo prático sobre eletrostática, acúmulo de cargas e rigidez dielétrica do ar.</p>
-                <span class="tag">Eletrostática</span>
-            </article>
-        </div>
-    </section>
-
-    <section id="tecnociencia" class="container">
-        <h2 class="titulo-secao">🔬 Tecnociência</h2>
-        <div class="grid">
-            <article class="card">
-                <h3>Estação Meteorológica IoT</h3>
-                <p>Monitoramento de temperatura e umidade em tempo real enviando dados para a nuvem.</p>
-                <span class="tag">IoT</span>
-                <span class="tag">Sensores</span>
-            </article>
-
-            <article class="card">
-                <h3>Pesquisa: Impactos da IA na Sociedade</h3>
-                <p>Artigo de investigação sobre os dilemas éticos e avanços tecnológicos das redes neurais.</p>
-                <span class="tag">Artigo</span>
-                <span class="tag">Pesquisa</span>
-            </article>
-        </div>
-    </section>
-
-    <section id="natureza-da-luz" class="container">
-        <h2 class="titulo-secao">💡 Estudo Especial: A Natureza da Luz</h2>
-
-        <div class="etapa-bloco">
-            <h3>1ª Etapa: Questões Clave & Evolução Histórica</h3>
-            
-            <div class="grid">
-                <article class="card">
-                    <h4>a) As Primeiras Teorias da Antiguidade</h4>
-                    <p><strong>Extromissão (Euclides, Platão):</strong> Olhos emitiam "raios visuais" até os objetos.<br>
-                    <strong>Intromissão (Aristóteles, Atomistas):</strong> Objetos emitiam partículas/modificações no meio até os olhos.</p>
-                    <span class="tag">Grécia Antiga</span>
-                    <span class="tag">Filosofia</span>
-                </article>
-
-                <article class="card">
-                    <h4>b) A Visão Ondulatória de Huygens</h4>
-                    <p>Propôs que a luz era uma onda mecânica propagando-se pelo "éter luminífero". Explicou a reflexão e a refração no século XVII.</p>
-                    <span class="tag">Teoria Ondulatória</span>
-                    <span class="tag">Século XVII</span>
-                </article>
-
-                <article class="card">
-                    <h4>c) A Teoria Corpuscular de Newton</h4>
-                    <p>Defendeu a luz como um fluxo de partículas. Demonstrou a decomposição da luz branca com um prisma, dominando a óptica no século XVIII.</p>
-                    <span class="tag">Prisma</span>
-                    <span class="tag">Corpúsculos</span>
-                </article>
-
-                <article class="card">
-                    <h4>d) O Experimento de Young</h4>
-                    <p>O Experimento da Dupla Fenda comprovou a interferência luminosa, um padrão estritamente ondulatório, confirmando a natureza de onda da luz.</p>
-                    <span class="tag">Dupla Fenda</span>
-                    <span class="tag">Interferência</span>
-                </article>
-
-                <article class="card">
-                    <h4>e) O Eletromagnetismo de Maxwell</h4>
-                    <p>Unificou eletricidade, magnetismo e óptica. Provou matematicamente que a luz é uma onda eletromagnética que viaja no vácuo sem necessidade do éter.</p>
-                    <span class="tag">Eletromagnetismo</span>
-                    <span class="tag">Onda EM</span>
-                </article>
-
-                <article class="card">
-                    <h4>f) O Efeito Fotoelétrico de Einstein</h4>
-                    <p>Para explicar a emissão de elétrons em metais, Einstein propôs que a luz viaja em pacotes discretos de energia (fótons/quanta), vencendo o Prêmio Nobel.</p>
-                    <span class="tag">Fótons</span>
-                    <span class="tag">Efeito Fotoelétrico</span>
-                </article>
-
-                <article class="card">
-                    <h4>g) A Dualidade de De Broglie</h4>
-                    <p>Unificou o conceito propondo a Dualidade Onda-Partícula: a luz se comporta como onda ao se propagar e como partícula ao interagir com a matéria.</p>
-                    <span class="tag">Física Quântica</span>
-                    <span class="tag">Dualidade</span>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>2ª Etapa: Estruturação do Artigo Científico</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>1. Introdução</h4>
-                    <p>Apresentação do mistério histórico ("O que é a luz?") e do fascínio que o tema exerceu desde a Grécia Antiga.</p>
-                </article>
-                <article class="card">
-                    <h4>2. O Embate Histórico</h4>
-                    <p>Contraste entre a teoria corpuscular de Newton e a teoria ondulatória de Huygens e Young.</p>
-                </article>
-                <article class="card">
-                    <h4>3. A Revolução Teórica</h4>
-                    <p>A unificação eletromagnética por Maxwell e o surgimento da física quântica com a teoria dos fótons de Einstein.</p>
-                </article>
-                <article class="card">
-                    <h4>4. Conclusão</h4>
-                    <p>Síntese final sobre a Dualidade Onda-Partícula (De Broglie), mostrando como a física moderna compreende a luz hoje.</p>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>3ª Etapa: Publicação Web & Divulgação</h3>
-            <article class="card">
-                <h4>Status do Projeto Web</h4>
-                <p>Publicação estruturada em HTML5/CSS3 para integração e apresentação na plataforma Google Classroom/Escolar.</p>
-                <span class="tag">HTML5</span>
-                <span class="tag">CSS3</span>
-                <span class="tag">Classroom</span>
-            </article>
-        </div>
-    </section>
-
-    <section id="fisica-visao" class="container">
-        <h2 class="titulo-secao">👁️ Física da Visão & Acessibilidade</h2>
-
-        <div class="etapa-bloco">
-            <h3>1. Como Funciona a Nossa Visão?</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>Anatomia do Olho</h4>
-                    <p>Funciona como uma câmara fotográfica: a luz atravessa a córnea, passa pela pupila e é focada pelo cristalino até atingir a retina.</p>
-                    <span class="tag">Anatomia</span>
-                    <span class="tag">Óptica Ocular</span>
-                </article>
-
-                <article class="card">
-                    <h4>Formação da Imagem</h4>
-                    <p>A imagem na retina fica invertida. Células fotorreceptoras (bastonetes e cones) convertem a luz em sinais elétricos transmitidos pelo nervo óptico até o cérebro.</p>
-                    <span class="tag">Retina</span>
-                    <span class="tag">Nervo Óptico</span>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>2. A Física por Trás da Visão</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>Luz Visível & Espectro</h4>
-                    <p>A luz visível é uma faixa do espectro eletromagnético ($400\text{ nm}$ a $700\text{ nm}$). Os objetos absorvem e refletem frequências específicas, gerando as cores.</p>
-                    <span class="tag">Espectro EM</span>
-                    <span class="tag">Cores</span>
-                </article>
-
-                <article class="card">
-                    <h4>Reflexão e Refração</h4>
-                    <p>A reflexão nos permite enxergar os objetos. A refração desvia a luz ao mudar de meio, fundamental para o ajuste de foco do cristalino.</p>
-                    <span class="tag">Refração</span>
-                    <span class="tag">Fenômenos Ópticos</span>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>3. Deficiências Visuais & Correções Ópticas</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>Problemas de Visão</h4>
-                    <p><strong>Catarata:</strong> opacificação do cristalino.<br><strong>Glaucoma:</strong> dano ao nervo óptico.<br><strong>Daltonismo:</strong> alteração nos cones que dificulta distinguir cores.</p>
-                    <span class="tag">Patologias</span>
-                </article>
-
-                <article class="card">
-                    <h4>Correção com Lentes</h4>
-                    <p><strong>Miopia:</strong> imagem foca antes da retina (corrigida com lente divergente).<br><strong>Hipermetropia:</strong> foca atrás da retina (lente convergente).<br><strong>Astigmatismo:</strong> lentes cilíndricas.</p>
-                    <span class="tag">Lentes</span>
-                    <span class="tag">Óptica Aplicada</span>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>4. Inteligência Artificial & Tecnologias Assistivas</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>IA na Acessibilidade</h4>
-                    <p>Sistemas de visão computacional realizam o reconhecimento de objetos, leitura de placas, descrição de imagens e identificação de cédulas em áudio.</p>
-                    <span class="tag">Visão Computacional</span>
-                    <span class="tag">IA</span>
-                </article>
-
-                <article class="card">
-                    <h4>Tecnologias Assistivas</h4>
-                    <p>Leitores de tela (VoiceOver/TalkBack), telas e impressoras Braille, óculos inteligentes e sistemas de audiodescrição garantem autonomia no dia a dia.</p>
-                    <span class="tag">Inclusão</span>
-                    <span class="tag">Hardware Assistivo</span>
-                </article>
-            </div>
-        </div>
-
-        <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
-
-        <div class="etapa-bloco">
-            <h3>5. Curiosidades, Experimentos & Mitos</h3>
-            <div class="grid">
-                <article class="card">
-                    <h4>Experimentos Práticos</h4>
-                    <p>Demonstrações visuais: refração do lápis na água, confecção de lentes caseiras com gotas d'água e mistura de cores com o Disco de Newton.</p>
-                    <span class="tag">Práticas</span>
-                    <span class="tag">Experimentos</span>
-                </article>
-
-                <article class="card">
-                    <h4>Mitos e Verdades</h4>
-                    <p><strong>Ler no escuro cega?</strong> Mito, apenas gera fadiga ocular.<br><strong>Usar óculos aumenta o grau?</strong> Mito, a progressão é genética/biológica.<br><strong>Pessoas cegas só veem preto?</strong> Mito, muitas percebem sombras e luz.</p>
-                    <span class="tag">Mitos & Verdades</span>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2026 - Portfólio de Trabalhos Escolares/Acadêmicos</p>
-    </footer>
-
+  <div class="container">
+    <h1>Minha Página com Estilo GitHub</h1>
+    <p>Esta é uma página de exemplo com estilo inspirado no GitHub. Ela contém um parágrafo de texto e uma imagem de uma bengala com sensor de presença.</p>
+    <img src="bengala_sensor.jpg" alt="Bengala com sensor de presença">
+  </div>
 </body>
 </html>
